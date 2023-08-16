@@ -5,7 +5,7 @@ export default function Header(jsonData) {
     const shortIntro = jsonData["data"]["shortIntro"];
     return (
         <>
-            <div className="bg-black h-60 w-full">
+            <div className="bg-black h-60 w-full ">
                 <div class="grid grid-cols-2 h-full w-1/2">
                     <div className="border border-gray-700 mr-4 ml-4 w-1/4"></div>
                     <div className="border border-gray-700 mr-4 ml-4 w-1/8"></div>
@@ -21,8 +21,8 @@ export default function Header(jsonData) {
                         </div>
                     </div>
                 </div>
-                <div className="pt-60 flex justify-center">
-                    <h1 className="text-xl font-semi-bold w-1/2">{shortIntro}</h1>
+                <div className="pt-60 flex justify-center text-gray-500 ">
+                    <h1 className="text-xl font-semi-bold w-1/4 tracking-wide text-center">{shortIntro}</h1>
                 </div>
             </div>
 
