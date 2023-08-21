@@ -6,7 +6,7 @@ export default function ExperienceCard() {
                     Main Title
                 </div>
                 <div className="pt-3 p-2">
-                    Experiance in detail
+                    Experience in detail
                 </div>
             </div>
         </>
